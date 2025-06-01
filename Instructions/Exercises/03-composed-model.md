@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Create a composed Document Intelligence model'
-    module: 'Module 6 - Document Intelligence'
----
-
 # Create a composed Document Intelligence model
 
 You'll create and train two custom models that analyze different tax forms. Then, you'll create a composed model that includes both of these custom models. You'll test the model by submitting a form and you'll check that it recognizes the document type and labeled fields correctly.
