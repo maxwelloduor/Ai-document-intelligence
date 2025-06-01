@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Analyze content with Azure AI Content Understanding'
-    module: 'Multimodal analysis with Content Understanding'
----
-
 # Analyze content with Azure AI Content Understanding
 
 You use Azure AI Foundry portal to create a Content Understanding project that can extract information from travel insurance policy forms. You'll then test your content analyzer in Azure AI Foundry Portal and consume it through the Content Understanding REST interface.
