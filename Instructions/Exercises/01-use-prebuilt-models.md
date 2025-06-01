@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Use prebuilt Document Intelligence models'
-    module: 'Module 6 - Document Intelligence'
----
-
 # Use prebuilt Document Intelligence models
 
 Set up an Azure AI Document Intelligence resource in your Azure subscription. You'll use both the Azure AI Document Intelligence Studio and C# or Python to submit forms to that resource for analysis.
