@@ -6,14 +6,14 @@ lab:
 
 # Create a composed Document Intelligence model
 
-In this exercise, you'll create and train two custom models that analyze different tax forms. Then, you'll create a composed model that includes both of these custom models. You'll test the model by submitting a form and you'll check that it recognizes the document type and labeled fields correctly.
+You'll create and train two custom models that analyze different tax forms. Then, you'll create a composed model that includes both of these custom models. You'll test the model by submitting a form and you'll check that it recognizes the document type and labeled fields correctly.
 
 ## Set up resources
 
 We'll use a script to create the Azure AI Document Intelligence resource, a storage account with sample forms, and a resource group:
 
 1. Start Visual Studio Code.
-1. Open the palette (SHIFT+CTRL+P) and run a **Git: Clone** command to clone the `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` repository to a local folder (it doesn't matter which folder).
+1. Open the palette (SHIFT+CTRL+P) and run a **Git: Clone** command to clone the repository to a local folder (it doesn't matter which folder).
 1. When the repository has been cloned, open the folder in Visual Studio Code.
 
     > **Note**: If Visual Studio Code shows you a pop-up message to prompt you to trust the code you are opening, click on **Yes, I trust the authors** option in the pop-up.

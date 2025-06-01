@@ -1,2 +1,2 @@
-# mslearn-document-intelligence
+# document-intelligence
 Lab files for Azure AI Document Intelligence modules

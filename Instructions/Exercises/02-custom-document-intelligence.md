@@ -6,7 +6,7 @@ lab:
 
 # Extract Data from Forms
 
-Suppose a company currently requires employees to manually purchase order sheets and enter the data into a database. They would like you to utilize AI services to improve the data entry process. You decide to build a machine learning model that will read the form and produce structured data that can be used to automatically update a database.
+Suppose a company currently requires employees to manually purchase order sheets and enter the data into a database. They would like you to utilize AI services to improve the data entry process. You build a machine learning model that will read the form and produce structured data that can be used to automatically update a database.
 
 **Azure AI Document Intelligence** is an Azure AI service that enables users to build automated data processing software. This software can extract text, key/value pairs, and tables from form documents using optical character recognition (OCR). Azure AI Document Intelligence has pre-built models for recognizing invoices, receipts, and business cards. The service also provides the capability to train custom models. In this exercise, we will focus on building custom models.
 
@@ -17,7 +17,7 @@ Now let's use the service SDK to develop an app using Visual Studio Code. The co
 > **Tip**: If you have already cloned the **mslearn-ai-document-intelligence** repo, open it in Visual Studio code. Otherwise, follow these steps to clone it to your development environment.
 
 1. Start Visual Studio Code.
-1. Open the palette (SHIFT+CTRL+P) and run a **Git: Clone** command to clone the `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` repository to a local folder (it doesn't matter which folder).
+1. Open the palette (SHIFT+CTRL+P) and run a **Git: Clone** command to clone the repository to a local folder (it doesn't matter which folder).
 1. When the repository has been cloned, open the folder in Visual Studio Code.
 
     > **Note**: If Visual Studio Code shows you a pop-up message to prompt you to trust the code you are opening, click on **Yes, I trust the authors** option in the pop-up.

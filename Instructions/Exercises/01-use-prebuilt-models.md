@@ -6,7 +6,7 @@ lab:
 
 # Use prebuilt Document Intelligence models
 
-In this exercise, you'll set up an Azure AI Document Intelligence resource in your Azure subscription. You'll use both the Azure AI Document Intelligence Studio and C# or Python to submit forms to that resource for analysis.
+Set up an Azure AI Document Intelligence resource in your Azure subscription. You'll use both the Azure AI Document Intelligence Studio and C# or Python to submit forms to that resource for analysis.
 
 ## Create an Azure AI Document Intelligence resource
 
@@ -46,12 +46,10 @@ Let's start by using the **Azure AI Document Intelligence Studio** and the Read 
 
 ## Prepare to develop an app in Visual Studio Code
 
-Now let's explore the app that uses the Azure Document Intelligence service SDK. You'll develop your app using Visual Studio Code. The code files for your app have been provided in a GitHub repo.
-
-> **Tip**: If you have already cloned the **mslearn-ai-document-intelligence** repo, open it in Visual Studio code. Otherwise, follow these steps to clone it to your development environment.
+Now let's explore the app that uses the Azure Document Intelligence service SDK. You'll develop your app using Visual Studio Code. 
 
 1. Start Visual Studio Code.
-1. Open the palette (SHIFT+CTRL+P) and run a **Git: Clone** command to clone the `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` repository to a local folder (it doesn't matter which folder).
+1. Open the palette (SHIFT+CTRL+P) and run a **Git: Clone** command to clone the  repository to a local folder (it doesn't matter which folder).
 1. When the repository has been cloned, open the folder in Visual Studio Code.
 
     > **Note**: If Visual Studio Code shows you a pop-up message to prompt you to trust the code you are opening, click on **Yes, I trust the authors** option in the pop-up.

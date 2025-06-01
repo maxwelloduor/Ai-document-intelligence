@@ -6,7 +6,7 @@ lab:
 
 # Analyze content with Azure AI Content Understanding
 
-In this exercise, you use Azure AI Foundry portal to create a Content Understanding project that can extract information from travel insurance policy forms. You'll then test your content analyzer in Azure AI Foundry Portal and consume it through the Content Understanding REST interface.
+You use Azure AI Foundry portal to create a Content Understanding project that can extract information from travel insurance policy forms. You'll then test your content analyzer in Azure AI Foundry Portal and consume it through the Content Understanding REST interface.
 
 This exercise takes approximately **30** minutes.
 
@@ -124,7 +124,7 @@ Now that you have trained a model to extract fields from insurance forms, you ca
     - **Name**: `travel-insurance-analyzer`
     - **Description**: `Insurance form analyzer`
 1. Wait for the new analyzer to be ready (use the **Refresh** button to check).
-1. Download [test-form.pdf](https://github.com/microsoftlearning/mslearn-ai-document-intelligence/raw/main/Labfiles/05-content-understanding/forms/test-form.pdf) from `https://github.com/microsoftlearning/mslearn-ai-document-intelligence/raw/main/Labfiles/05-content-understanding/forms/test-form.pdf` and save it in a local folder.
+1. Download [test-form.pdf].
 1. Return to the **Build analyzer** page and select the **travel-insurance-analyzer** link. The fields defined in the analyzer's schema will be displayed.
 1. In the **travel-insurance-analyzer** page, select **Test**.
 1. Use the **+ Upload test files** button to upload **test-form.pdf** and run the analysis to extract field data from the test form.

@@ -1,2 +1,35 @@
-bin
-obj
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Resharper files
+_ReSharper.*
+*.DotSettings.user
+
+# Test results
+TestResults/
+*.trx
+*.coverage
