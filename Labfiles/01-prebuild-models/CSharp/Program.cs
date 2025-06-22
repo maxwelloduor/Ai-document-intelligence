@@ -2,8 +2,8 @@
 using Azure.AI.FormRecognizer.DocumentAnalysis;
 
 // Store connection information
-string endpoint = "https://maxdocintelligenceresources.cognitiveservices.azure.com/";
-string apiKey = "4Yimfe7uP4shAyYe4FyiVTjakqTr6rwcrngfEaGRjTsLSACJYXlyJQQJ99BDACYeBjFXJ3w3AAALACOGwxnW";
+string endpoint = "<Endpoint URL>";
+string apiKey = "<API Key>";
 
 Uri fileUri = new Uri("https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence/blob/main/Labfiles/01-prebuild-models/sample-invoice/sample-invoice.pdf?raw=true");
 
